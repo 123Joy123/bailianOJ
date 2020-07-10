@@ -1,7 +1,7 @@
 #include <cstdio>
 #include <iostream>
 using namespace std;
-//Õâ¸öÌâÌ«Âé·³ÁË£¬²»ÏëĞ´ÁË 
+//è¿™ä¸ªé¢˜å¤ªéº»çƒ¦äº†ï¼Œä¸æƒ³å†™äº† 
 int main()
 {
 	//freopen("C:\\Users\\Joy\\Desktop\\input.txt","r",stdin);
@@ -34,7 +34,7 @@ int main()
 				flag*=10;
 			}
 		}
-		//ÎÒµÄË¼Â·ÊÇswitchÒ»¸öÒ»¸öĞ´£¬µ«ÊÇÌ«Âé·³ÁË
+		//æˆ‘çš„æ€è·¯æ˜¯switchä¸€ä¸ªä¸€ä¸ªå†™ï¼Œä½†æ˜¯å¤ªéº»çƒ¦äº†
 		/* 
 		for(int i=0;i<2*s+3;i++)
 		{
