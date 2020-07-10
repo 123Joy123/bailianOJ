@@ -2,7 +2,7 @@
 #include <iostream>
 #include <algorithm>
 #include <cstring>
-//¸ù¾İ²Î¿¼ÊéµÄ·ÖÎö×Ô¼ºĞ´µÄ´úÂë 
+//æ ¹æ®å‚è€ƒä¹¦çš„åˆ†æè‡ªå·±å†™çš„ä»£ç  
 using namespace std;
 int num[1030];
 void PrintResult(int *num,int n)
@@ -30,7 +30,7 @@ int Find(int *num,int n)
 	}
 	return -1;
 }
-//¼ÇÒ»¸ö²Î¿¼ÊéÉÏ±È½ÏºÃµÄÕÒÏÂ±ê·½·¨
+//è®°ä¸€ä¸ªå‚è€ƒä¹¦ä¸Šæ¯”è¾ƒå¥½çš„æ‰¾ä¸‹æ ‡æ–¹æ³•
 /*
 while(a[flag-1]<a[flag]&&flag!=0)
 {
@@ -47,10 +47,10 @@ void SwapAndSort(int *num,int index,int n)
 			break;
 		}
 	}
-	//cout<<"ÅÅĞòÇ°£º"<<endl;
+	//cout<<"æ’åºå‰ï¼š"<<endl;
 	//PrintResult(num,n);
 	sort(num+(index+1),num+n);
-	//cout<<"ÅÅĞòºó£º"<<endl;
+	//cout<<"æ’åºåï¼š"<<endl;
 	//PrintResult(num,n);
 }
 int main()
@@ -67,7 +67,7 @@ int main()
 		{
 			cin>>num[i];
 		}
-//		cout<<"now£º"<<endl; 
+//		cout<<"nowï¼š"<<endl; 
 //		PrintResult(num,n);
 		for(int j=0;j<k;j++)
 		{
