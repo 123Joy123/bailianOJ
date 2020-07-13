@@ -19,6 +19,15 @@ int main()
 				break;
 			}
 		}
+		//参考书上是每个高峰单独找，找到一个后步长就加大
+		/*
+		for(j=d+1;j<21252;j++)
+			if((j-p)%23==0) break;
+		for(;j<21252;j+=23)
+			if((j-p)%28==0) break;
+		for(;j<21252;j+=23*28)
+			if((j-p)%33==0) break;
+		*/
 		peak-=d;
 		printf("Case %d: the next triple peak occurs in %d days.\n",num,peak);
 		num++;
